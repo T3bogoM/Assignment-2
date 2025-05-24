@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Second_Screen">
+
+    <TextView
+        android:id="@+id/txtQuestion"
+        android:layout_width="169dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="132dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/btnTrue"
+        android:layout_width="149dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="131dp"
+        android:text="True"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtQuestion" />
+
+    <Button
+        android:id="@+id/btnFalse"
+        android:layout_width="154dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="131dp"
+        android:text="False"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTrue" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="155dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="131dp"
+        android:text="Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFalse" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="411dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/welcome_to_flashfacts_banner" />
+
+    <TextView
+        android:id="@+id/txtFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="311dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

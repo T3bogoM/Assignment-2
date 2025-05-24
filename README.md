@@ -9,7 +9,8 @@ Features
 - Return to main screen on finish
 
 ![Screenshot 2025-05-24 230640](https://github.com/user-attachments/assets/3e8d0146-d9be-4552-9b6d-8cbb873d1a17)
-
+![Screenshot 2025-05-24 230502](https://github.com/user-attachments/assets/fdce5f95-0089-444e-85a9-039f2acb8b1f)
+![Screenshot 2025-05-24 230640](https://github.com/user-attachments/assets/93564f95-3d59-4eb2-8027-77b52ebba3c9)
 
 references
 1. ChatGPT (2025) A 2D digital graphic banner welcomes users to FlashFacts [Online image]. Generated using DALL·E in OpenAI ChatGPT. Available at: ChatGPT session interface (Accessed: 24 May 2025).
